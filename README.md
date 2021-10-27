@@ -29,3 +29,4 @@ To run your tests
 - [array-binary-search](javascript/code-challenges/array-binary-search/README.md)
 - [linked-list-insertions](javascript/code-challenges/linked-list-insertions/README.md)
 - [linked-list-kth](javascript/code-challenges/linked-list-kth/README.md)
+- [linked-list-zip](javascript/code-challenges/linked-list-zip/README.md)
