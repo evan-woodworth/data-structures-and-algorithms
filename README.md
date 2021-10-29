@@ -30,3 +30,4 @@ To run your tests
 - [linked-list-insertions](javascript/code-challenges/linked-list-insertions/README.md)
 - [linked-list-kth](javascript/code-challenges/linked-list-kth/README.md)
 - [linked-list-zip](javascript/code-challenges/linked-list-zip/README.md)
+- [stack-and-queue](javascript/code-challenges/stack-and-queue/README.md)
