@@ -32,3 +32,4 @@ To run your tests
 - [linked-list-zip](javascript/code-challenges/linked-list-zip/README.md)
 - [stack-and-queue](javascript/code-challenges/stack-and-queue/README.md)
 - [stack-queue-pseudo](javascript/code-challenges/stack-queue-pseudo/README.md)
+- [stack-queue-animal-shelter](javascript/code-challenges/stack-queue-animal-shelter/README.md)
