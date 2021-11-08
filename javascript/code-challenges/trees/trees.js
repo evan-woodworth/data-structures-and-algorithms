@@ -83,18 +83,19 @@ class BinarySearchTree extends BinaryTree {
       this.root = new Node(value);
       return;
     }
-    let breadthQ = [].push(this.root);
+    let breadthQ = [this.root];
     while (breadthQ.length) {
-      let front = breadthQ.unshift();
+      let front = breadthQ[0];
+      breadthQ.unshift();
       if( !front.left ) {
         front.left = new Node(value);
-        return;
+        break;
       } else {
         breadthQ.push(front.left);
       }
       if( !front.right ) {
         front.right = new Node(value);
-        return;
+        break;
       } else {
         breadthQ.push(front.right);
       }
