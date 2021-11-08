@@ -36,6 +36,10 @@ describe("Testing stack-and-queue challenge", () => {
 
     expect(newTree.root.value)
       .toBe('A');
+    expect(newTree.root.left.value)
+      .toBe('B');
+    expect(newTree.root.right.value)
+      .toBe('C');
   });
 
   it("Can successfully return a collection from a preorder traversal", () => {
