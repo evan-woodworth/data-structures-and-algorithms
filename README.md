@@ -37,3 +37,6 @@ To run your tests
 - [tree-max](javascript/code-challenges/tree-max/README.md)
 - [tree-breadth-first](javascript/code-challenges/tree-breadth-first/README.md)
 - [tree-fizz-buzz](javascript/code-challenges/tree-fizz-buzz/README.md)
+- [insertion-sort](javascript/code-challenges/insertion-sort/README.md)
+- [merge-sort](javascript/code-challenges/merge-sort/README.md)
+- [quick-sort](javascript/code-challenges/quick-sort/README.md)
