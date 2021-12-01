@@ -41,3 +41,4 @@ To run your tests
 - [merge-sort](javascript/code-challenges/merge-sort/README.md)
 - [quick-sort](javascript/code-challenges/quick-sort/README.md)
 - [hashtable](javascript/code-challenges/hashtable/README.md)
+- [hashmap-repeated-word](javascript/code-challenges/hashmap-repeated-word/README.md)
