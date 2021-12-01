@@ -35,7 +35,10 @@ Write tests to prove the following functionality:
 
 ## Approach & Efficiency
 
-
+- add: O(1) time complexity, it checks for a bucket, adds a bucket if needed, then adds the key:value pair.
+- get: O(1) to O(n) time complexity, it hashes the key, checks the bucket, and iterates through the key:value pairs to get the value.
+- contains: O(1) to O(n) time complexity, it hashes the key, checks the bucket, and iterates through the key:value to check for the key.
+- hash: O(1) time complexity, hashes the key.
 
 ## API
 

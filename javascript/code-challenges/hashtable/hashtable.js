@@ -70,7 +70,14 @@ class HashTable {
 
   contains(key) {
     let index = this.hash(key);
-    return (index in this.map);
+    if (!(index in this.map)) return false;
+    let current = this.map[index].head;
+    if (key in current.value) return true;
+    while (current.next) {
+      current = current.next;
+      if (key in current.value) return true;
+    }
+    return false;
   }
 
   get(key) {
