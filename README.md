@@ -40,3 +40,4 @@ To run your tests
 - [insertion-sort](javascript/code-challenges/insertion-sort/README.md)
 - [merge-sort](javascript/code-challenges/merge-sort/README.md)
 - [quick-sort](javascript/code-challenges/quick-sort/README.md)
+- [hashtable](javascript/code-challenges/hashtable/README.md)
