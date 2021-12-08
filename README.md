@@ -44,3 +44,4 @@ To run your tests
 - [hashmap-repeated-word](javascript/code-challenges/hashmap-repeated-word/README.md)
 - [tree-intersection](javascript/code-challenges/tree-intersection/README.md)
 - [hashmap-left-join](javascript/code-challenges/hashmap-left-join/README.md)
+- [graph](javascript/code-challenges/graph/README.md)
