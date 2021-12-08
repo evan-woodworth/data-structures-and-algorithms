@@ -45,3 +45,4 @@ To run your tests
 - [tree-intersection](javascript/code-challenges/tree-intersection/README.md)
 - [hashmap-left-join](javascript/code-challenges/hashmap-left-join/README.md)
 - [graph](javascript/code-challenges/graph/README.md)
+- [graph-breadth-first](javascript/code-challenges/graph-breadth-first/README.md)
