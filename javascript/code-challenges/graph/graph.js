@@ -49,6 +49,6 @@ module.exports = class Graph {
   }
 
   size() {
-    return this.adjacencyList.size();
+    return this.adjacencyList.size;
   }
 };

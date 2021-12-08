@@ -1,7 +1,7 @@
 'use strict';
 
 const { describe, expect } = require('@jest/globals');
-const { Graph } = require('./graph');
+const Graph = require('./graph.js');
 
 describe("Testing graph challenge", () => {
 
@@ -37,19 +37,18 @@ describe("Testing graph challenge", () => {
   it("Can successfully add an edge to the graph", () => {
     graph.addEdge(H, F);
     expect(graph.getNeighbors(H))
-      .toContain("Edge { node: Node { value: 'F' }, weight: 0 }")
+      .toEqual([{"node": {"value": "F"}, "weight": 0}])
   });
 
   it("Can successfully retrieve all nodes from the graph", () => {
     expect(graph.getNodes())
-      .toEqual('');
+      .toEqual([{"value": "A"}, {"value": "B"}, {"value": "C"}, {"value": "D"}, {"value": "E"}, {"value": "F"}, {"value": "G"}, {"value": "H"}, {"value": "I"}]);
     console.log(graph.getNodes());
   });
 
   it("Can successfully retrieve all neighbors of a node from the graph", () => {
     expect(graph.getNeighbors(H))
-      .toEqual();
-    console.log(graph.getNeighbors(H));
+      .toEqual([{"node": {"value": "F"}, "weight": 0}]);
   });
 
   it("Can successfully retrieve the size the graph", () => {
