@@ -48,6 +48,36 @@ module.exports = class Graph {
     return Array.from(this.adjacencyList.keys());
   }
 
+  breadthFirst(startNode) {
+
+    const queue = [];
+    const visitedNodes = new Set();
+
+    queue.push(startNode);
+    visitedNodes.add(startNode);
+
+
+    while(queue.length) {
+
+      const current = queue.shift();
+      let neighbors = this.getNeighbors(current);
+
+      for (let edge of neighbors) {
+
+        let neighbor = edge.node;
+
+        if (!visitedNodes.has(neighbor)) {
+          queue.push(neighbor);
+          visitedNodes.add(neighbor);
+        } else {
+          continue;
+        }
+      }
+    }
+
+    return visitedNodes;
+  }
+
   size() {
     return this.adjacencyList.size;
   }
