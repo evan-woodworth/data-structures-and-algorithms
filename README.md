@@ -47,3 +47,4 @@ To run your tests
 - [graph](javascript/code-challenges/graph/README.md)
 - [graph-breadth-first](javascript/code-challenges/graph-breadth-first/README.md)
 - [graph-business-trip](javascript/code-challenges/graph-business-trip/README.md)
+- [graph-depth-first](javascript/code-challenges/graph-depth-first/README.md)
